@@ -2,11 +2,11 @@
 
 /**
  * Plugin Name: BTWB
- * Plugin URI: https://www.beyondthewhiteboard.com/
- * Description: Helps Wordpress blog to authenticate the users for accessing your blog page(s).
- * Version: 1.0.0
- * Author: AvitInfotech
- * Author URI: http://avitinfotech.com/
+ * Plugin URI: https://coach.crossfitbtwb.com/
+ * Description: Show WODs, Leaderboards and Recent Gym Activity from BTWB on your WordPress Site
+ * Version: 2.1.20191029
+ * Author: BTWB
+ * Author URI: http://btwb.com/
  */
 
 if (! defined('ABSPATH')) {
