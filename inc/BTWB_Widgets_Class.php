@@ -289,7 +289,7 @@ if (!class_exists('BTWB_Widgets_Class')) {
                     $token = array(
                         "iss" => $key_issuer,
                         "aud" => "webwidgets@service.btwb.net",
-                        "exp" => time() + 3600
+                        "exp" => time() + 172800
                     );
                     $result[] = JWT::encode($token, $webwidgets_api_keys_secret);
                 }
