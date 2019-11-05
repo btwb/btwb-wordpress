@@ -4,7 +4,7 @@
  * Plugin Name: BTWB
  * Plugin URI: https://coach.crossfitbtwb.com/
  * Description: Show WODs, Leaderboards and Recent Gym Activity from BTWB on your WordPress Site
- * Version: 2.1.20191029
+ * Version: 2.1.20191105
  * Author: BTWB
  * Author URI: http://btwb.com/
  */
