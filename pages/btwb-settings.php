@@ -70,12 +70,12 @@ if (session_status() == PHP_SESSION_NONE) {
                     <tr>
                         <th scope="row">Leaderboard Display Length</th>
                         <td>
-                            <?php BTWB_Class::widgetDefaultSettingsSelect('btwb_wod_leaderboard_length', $btwbDefaultSettings['btwb_wod_leaderboard_length']); ?>
+                            <?php BTWB_Class::widgetDefaultSettingsSelect('btwb_wod_leaderboard_length', $btwbDefaultSettings['btwb_wod_leaderboard_length'] ?? 0); ?>
                         </td>
 
                         <th scope="row">Activity List Length</th>
                         <td>
-                            <?php BTWB_Class::widgetDefaultSettingsSelect('btwb_wod_activity_length', $btwbDefaultSettings['btwb_wod_activity_length']); ?>
+                            <?php BTWB_Class::widgetDefaultSettingsSelect('btwb_wod_activity_length', $btwbDefaultSettings['btwb_wod_activity_length'] ?? 0); ?>
                         </td>
                     </tr>
                 </tbody>
@@ -88,7 +88,7 @@ if (session_status() == PHP_SESSION_NONE) {
                     <tr>
                         <th scope="row">Activity List Length</th>
                         <td>
-                            <?php BTWB_Class::widgetDefaultSettingsSelect('btwb_activity_length', $btwbDefaultSettings['btwb_activity_length'], 30); ?>
+                            <?php BTWB_Class::widgetDefaultSettingsSelect('btwb_activity_length', $btwbDefaultSettings['btwb_activity_length'] ?? 0, 30); ?>
                         </td>
                     </tr>
                 </tbody>
@@ -101,7 +101,7 @@ if (session_status() == PHP_SESSION_NONE) {
                     <tr>
                         <th scope="row">Leaderboard Display Length</th>
                         <td>
-                            <?php BTWB_Class::widgetDefaultSettingsSelect('btwb_leaderboard_length', $btwbDefaultSettings['btwb_leaderboard_length']); ?>
+                            <?php BTWB_Class::widgetDefaultSettingsSelect('btwb_leaderboard_length', $btwbDefaultSettings['btwb_leaderboard_length'] ?? 1); ?>
                         </td>
                     </tr>
                 </tbody>
