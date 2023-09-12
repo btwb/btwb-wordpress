@@ -291,7 +291,7 @@ if (!class_exists('BTWB_Widgets_Class')) {
                         "aud" => "webwidgets@service.btwb.net",
                         "exp" => time() + 172800
                     );
-                    $result[] = JWT::encode($token, $webwidgets_api_keys_secret);
+                    $result[] = JWT::encode($token, $webwidgets_api_keys_secret, 'HS256');
                 }
             }
 
